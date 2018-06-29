@@ -1,0 +1,16 @@
+{
+  "name": "ccgame-file",
+  "version": "1.0.0",
+  "description": "存放面向策划和运维的配置文件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tannineo",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "node-xlsx": "^0.12.1",
+    "xlsx": "^0.13.1"
+  }
+}

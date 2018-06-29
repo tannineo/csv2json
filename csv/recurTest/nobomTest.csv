@@ -1,0 +1,2 @@
+id#number,name#string,note#string,type#number,total#number,reward#[{}]
+1,邀请有礼,"邀请好友一起游戏,满4人即可获得老友商城优惠券",1,5,itemId:0;count:288
