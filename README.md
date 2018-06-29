@@ -8,9 +8,10 @@ Binaries like `xls` an `xlsx` is a good choice, but under git, the commits with 
 `csv` is a text-based format, but can be managed well with table softwares, so we use `csv`.
 
 ## How
-- clone the project
-- edit `csv` file under `./csv/`
-- generate `json` files with `node index.js`
+- clone the project.
+- edit `csv` file under `./csv/`.
+- generate `json` files with `node index.js`, they are under `./json/`.
+- use this project as a submodule of your app.
 
 Multi folders under `./csv/` are supported.
 
