@@ -24,6 +24,6 @@ We use node-xlsx which is based on [js-xlsx](https://github.com/SheetJS/js-xlsx)
 There're some issues:
 
 - `csv` generated with Numbers is encoded with `UTF-8`, but `js-xlsx` only support `UTF-8 with BOM`,  
-by setting `codepage` option to 650001, [check this issue](https://github.com/SheetJS/js-xlsx/issues/1060)). 
+by setting `codepage` option to 650001, [check this issue](https://github.com/SheetJS/js-xlsx/issues/1060). 
 All `csv` files will be add a header `u/FEFF` after running ` node index.js`.
 - `csv` generated from Numbers and Excel are in different standard.
